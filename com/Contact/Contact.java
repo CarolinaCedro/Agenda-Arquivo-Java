@@ -8,6 +8,7 @@ public class Contact {
     private static int contadorContatos = 0;
 
     public Contact(){
+        //criei esse contador só pra contar os contatos
         contadorContatos++;
         this.codigo = contadorContatos;
     }
